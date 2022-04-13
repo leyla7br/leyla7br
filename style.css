@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    background-color: brown;
+}
+ 
+ .sinup-form{
+
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+
+    background: url(imagass.png);
+    background-repeat: no-repeat;
+     text-align: center;
+     text-align:justify;
+
+     overflow: hidden;
+     width: 50%;
+     margin: 0 auto;
+   
+
+
+ }
+ .sinup-form input{
+     display: block;
+     width: 300px;
+     padding: 0 50px ;
+     height: 25px;
+     text-align: center;
+     box-sizing: border-box;
+     outline: none;
+     border: none;
+ }
+ 
+
+input[type="submit"]{
+    background-color: lime;
+    width: 200%;
+    height: 20%;
+
+}

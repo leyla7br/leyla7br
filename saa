@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  background-color: red;
+}
+.sinup-form {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: url(imagass.png);
+  background-repeat: no-repeat;
+  /* width:1000px  ; */
+  /* padding:3000px 3000px; */
+  text-align: center;
+  text-align: justify;
+
+  /* position: absolute; */
+  /* top: 50px; */
+  /* left: 50px; */
+  /* transform: translate(-100px,-100px); */
+  overflow: hidden;
+  width: 50%;
+  margin: 0 auto;
+}
+.sinup-form input {
+  display: block;
+  width: 300px;
+  padding: 0 50px;
+  height: 25px;
+  text-align: center;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+
+input[type="submit"] {
+  background-color: lime;
+}
